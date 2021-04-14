@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	font-family: sans-serif;
+}
+.mynav{
+   width: 100vh;
+    margin-bottom: 39px;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar .navbar-brand{
+    color: #ac1f1f;
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.form-control{
+    width: 100%;
+    height: 37px;
+    border-radius: 12px ;
+    font-family: 'Manrope', sans-serif;
+}
+
+.navbar-nav{
+    width: 100%;
+    justify-content: center;
+}
+.navbar .btn{
+    color: rgb(16, 43, 116);
+}
+
+.d-flex{
+    width: 590px;
+}
+
+.btn_exit{
+    margin-left: 50px;
+    width: 100px;
+    background-color: #EEEFF4;
+    
+}
+
+.nav-item{
+    margin-right: 30px;
+}
+
+.nav_usuario{
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+}
+
+main{
+        
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+}
+
+.flick_categ .carousel-cell {
+    width: 28%;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+  .card_categorias{
+      border: none;
+  }
+.main_titulos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card_producto{
+    width: 200px;
+    height: 450px;
+    justify-content: center;
+    text-align: center;
+    border-radius: none;
+    position: relative;
+
+}
+.card_producto .card-title{
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.card_producto .card-text{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.btn_card_comprar{
+
+    width: 150px;
+    background-color: #EEEFF4;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.btn_card_carrito{
+    width: 150px;
+    background-color: #EEEFF4;
+    border-radius: 10px;
+}
+
+.btn_corazon{
+    
+    
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    right: 5px;
+    background-color: #efefef;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;   
+    
+}
+.fa-heart{
+    color: red;
+    font-size:25px;
+}
+
+.main_categ{
+    margin-bottom: 30px;
+}
+
+.footer_home{
+    display: flex;
+    background-color: #0e4fb1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_logos{
+    flex: 1;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_iconos{
+    flex: 1;
+    padding-right: 200px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btn_footer{
+    font-size: 50px;
+    color: #e0e0e0;
+
+}
+
+.footer_logo_imagen{
+    height: 80px;
+    width: 80px;
+    color:#e0e0e0;
+}
+
+
+
