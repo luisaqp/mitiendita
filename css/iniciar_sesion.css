@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	font-family: 'Manrope', sans-serif;
+}
+.navbar_registro{
+	 margin-bottom: 39px;
+ }
+ 
+ .navbar{
+	 max-width: 100%;
+	 margin: 0 auto;
+	 min-width: 650px;
+ }
+.navbar-brand{
+	 color: #ac1f1f;
+	 font-weight: bolder;
+	 font-size: 1.3em;
+	 text-align: center;
+	
+ }
+
+ .btn_sig_in{
+	
+    background-color: #EEEFF4;
+ }
+
+ main{        
+	max-width: 1440px;
+	margin: 0 auto;
+	position: relative;
+	min-width: 650px;
+}
+
+.registro_page{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.registro_logo{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+	height: 300px;
+	min-width: 300px;
+	min-height: 300px;
+	
+}
+
+
+.registro_form{
+flex: 1;
+padding-right: 40px;
+}
+
+
+.registro_form_titulo{
+	margin-bottom: 50px;
+	text-align: center;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 50px;
+
+}
+
+.btn_registrarse{
+	background-color: rgb(241, 52, 52);
+	color: #efefef;
+	font-weight: 700;
+}
+
+.registro_footer{
+	
+	background-color: rgb(39, 37, 37);
+	display: flex;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 100px;
+	height: 58px;
+	min-width: 650px;
+
+
+}
+
+.r_footer_logo{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 10px ;
+}
+
+.r_footer_iconos{
+flex: 1;
+display: flex;
+justify-content: center;
+text-align: center;
+
+}
+
+.navbar_logo{
+	flex: 1;
+	display: flex;
+	justify-content: left;
+	height: 39px;
+	
+}
+
+.footer_logo{
+	flex: 1;
+	display: flex;
+	justify-content: left;
+	height: 39px;
+	max-width: 109.55px;
+}

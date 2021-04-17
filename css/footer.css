@@ -1,0 +1,32 @@
+.registro_footer{
+	
+	background-color: rgb(39, 37, 37);
+	display: flex;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 100px;
+	height: 58px;
+	min-width: 650px;
+}
+
+.r_footer_logo{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 10px ;
+}
+.footer_logo{
+	flex: 1;
+	display: flex;
+	justify-content: left;
+	height: 39px;
+	max-width: 109.55px;
+}
+.r_footer_iconos{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    }
