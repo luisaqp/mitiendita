@@ -18,22 +18,21 @@
     <!-- flickity -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <!-- Link Estilos CSS -->
-    <link rel="stylesheet" href="/css/stylehome.css">
+    
+    <link rel="stylesheet" href="/css/pagina_categoria.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/navbar.css">
 
 
-
-    <title>Home</title>
+    <title>Categoría</title>
 </head>
 
 <body>
-    <!-- Barra de NAvegacion -->
     <nav class="mynav">
 
         <!-- NAV BAR-->
 
-        <nav class="navbar navbar-light bg-light fixed-top col-xl-12 col-lg-12 col-md-12" style="width: 100%">
+        <nav class="navbar  mynav navbar-light bg-light fixed-top col-xl-12 col-lg-12 col-md-12" style="width: 100%">
 
             <div class="navbar_logo col-2">
                 <a class="navbar-brand"><img src="/img/ACSTORE_PNG.png" class="navbar_logo" alt=""></a>
@@ -71,116 +70,17 @@
 
 
         </nav>
-
-        <!-- FIN NAV BAR-->
     </nav>
-    <!-- Carousel fotos -->
-    <div class="flick_fotos main-carousel" data-flickity='{"autoPlay": 3500,
-    "pauseAutoPlayOnHover": true, "fullscreen": true, "wrapAround": true}' style="margin-bottom: 60px;"'>
-    <div class="carousel-cell"><img src="http://placehold.it/1440X300" alt=""></div>
-    <div class="carousel-cell"><img src="http://placehold.it/1440X300" alt=""></div>
-    <div class="carousel-cell"><img src="http://placehold.it/1440X300" alt=""></div>
-        ...
-    </div>
-
-    
+    <!-- FIN NAV BAR-->
     <main>
-        <h1 class="main_titulos"> Categorías </h1>
-        <!-- Carousel categorías -->
-        <div class="flick_categ main-carousel" data-flickity=' { "autoPlay" : 2500, "groupCells" : 1, "wrapAround" :
-        true }'>
-        <div class="carousel-cell">
-            <div class="card card_categorias">
-                <img src="http://placehold.it/300X150" class="card-img-top card_categoria" alt="...">
-                <div class="card-body">
-                    <p class="card-text" style="text-align: center;">Procesadores</p>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="card card_categorias">
-                <img src="http://placehold.it/300X150" class="card-img-top card_categoria" alt="...">
-                <div class="card-body">
-                    <p class="card-text" style="text-align: center;">Motherboard</p>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="card card_categorias">
-                <img src="http://placehold.it/300X150" class="card-img-top card_categoria" alt="...">
-                <div class="card-body">
-                    <p class="card-text" style="text-align: center;">Memorias RAM</p>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="card card_categorias">
-                <img src="http://placehold.it/300X150" class="card-img-top card_categoria" alt="...">
-                <div class="card-body">
-                    <p class="card-text" style="text-align: center;">Almacenamiento</p>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="card card_categorias">
-                <img src="http://placehold.it/300X150" class="card-img-top card_categoria" alt="...">
-                <div class="card-body">
-                    <p class="card-text" style="text-align: center;">Tarjetas de Video</p>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="card card_categorias">
-                <img src="http://placehold.it/300X150" class="card-img-top card_categoria" alt="...">
-                <div class="card-body">
-                    <p class="card-text" style="text-align: center;">Cases</p>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="card card_categorias">
-                <img src="http://placehold.it/300X150" class="card-img-top card_categoria" alt="...">
-                <div class="card-body">
-                    <p class="card-text" style="text-align: center;">Disipadores</p>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="card card_categorias">
-                <img src="http://placehold.it/300X150" class="card-img-top card_categoria" alt="...">
-                <div class="card-body">
-                    <p class="card-text" style="text-align: center;">Mouse y teclado</p>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="card card_categorias">
-                <img src="http://placehold.it/300X150" class="card-img-top card_categoria" alt="...">
-                <div class="card-body">
-                    <p class="card-text" style="text-align: center;">Monitores</p>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="card card_categorias">
-                <img src="http://placehold.it/300X150" class="card-img-top card_categoria" alt="...">
-                <div class="card-body">
-                    <p class="card-text" style="text-align: center;">Personalizacion</p>
-                </div>
-            </div>
-        </div>
+        <h1 class="main_titulos"> Categoría Procesadores </h1>
+        
+     
 
-    </div>
 
-    <!-- Carousel Categoría 1 -->
-    <div class="main_categ">
-        <h1 class="main_titulos"> Procesadores </h1>
-        <!-- Carousel Categoría 2 -->
-        <div class="flick_categ_produc main-carousel" data-flickity='{"autoPlay": 3500,
-        "pauseAutoPlayOnHover": true, "wrapAround": true}'>
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
+        <div class="card_group">
+            <div class="row col-12">
+                <div class="card card_producto col-2">
                     <button class="btn btn_corazon">
                         <i class="far fa-heart"></i>
                     </button>
@@ -193,10 +93,7 @@
                         <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="carousel-cell">
-                <div class="card card_producto">
+                <div class="card card_producto col-2">
                     <button class="btn btn_corazon">
                         <i class="far fa-heart"></i>
                     </button>
@@ -209,11 +106,7 @@
                         <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
+                <div class="card card_producto col-2">
                     <button class="btn btn_corazon">
                         <i class="far fa-heart"></i>
                     </button>
@@ -226,11 +119,7 @@
                         <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
+                <div class="card card_producto col-2">
                     <button class="btn btn_corazon">
                         <i class="far fa-heart"></i>
                     </button>
@@ -243,11 +132,7 @@
                         <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
+                <div class="card card_producto col-2">
                     <button class="btn btn_corazon">
                         <i class="far fa-heart"></i>
                     </button>
@@ -260,11 +145,7 @@
                         <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
+                <div class="card card_producto col-2">
                     <button class="btn btn_corazon">
                         <i class="far fa-heart"></i>
                     </button>
@@ -277,11 +158,7 @@
                         <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
+                <div class="card card_producto col-2">
                     <button class="btn btn_corazon">
                         <i class="far fa-heart"></i>
                     </button>
@@ -294,11 +171,7 @@
                         <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
+                <div class="card card_producto col-2">
                     <button class="btn btn_corazon">
                         <i class="far fa-heart"></i>
                     </button>
@@ -311,11 +184,7 @@
                         <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
+                <div class="card card_producto col-2">
                     <button class="btn btn_corazon">
                         <i class="far fa-heart"></i>
                     </button>
@@ -328,11 +197,7 @@
                         <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
+                <div class="card card_producto col-2">
                     <button class="btn btn_corazon">
                         <i class="far fa-heart"></i>
                     </button>
@@ -345,11 +210,7 @@
                         <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
+                <div class="card card_producto col-2">
                     <button class="btn btn_corazon">
                         <i class="far fa-heart"></i>
                     </button>
@@ -362,166 +223,103 @@
                         <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
                     </div>
                 </div>
+                <div class="card card_producto col-2">
+                    <button class="btn btn_corazon">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/31zqwyjLulL._SX500_SY500_CR,0,0,500,500_.jpg"
+                        class="img-fluid" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Intel Pentium G2020 2.9Ghz Fclga1155 3Mb 2 Cores/2 Threads...</h5>
+                        <p class="card-text">S/. 2.400</p>
+                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
+                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card card_producto col-2">
+                    <button class="btn btn_corazon">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/31zqwyjLulL._SX500_SY500_CR,0,0,500,500_.jpg"
+                        class="img-fluid" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Intel Pentium G2020 2.9Ghz Fclga1155 3Mb 2 Cores/2 Threads...</h5>
+                        <p class="card-text">S/. 2.400</p>
+                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
+                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card card_producto col-2">
+                    <button class="btn btn_corazon">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/31zqwyjLulL._SX500_SY500_CR,0,0,500,500_.jpg"
+                        class="img-fluid" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Intel Pentium G2020 2.9Ghz Fclga1155 3Mb 2 Cores/2 Threads...</h5>
+                        <p class="card-text">S/. 2.400</p>
+                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
+                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card card_producto col-2">
+                    <button class="btn btn_corazon">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/31zqwyjLulL._SX500_SY500_CR,0,0,500,500_.jpg"
+                        class="img-fluid" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Intel Pentium G2020 2.9Ghz Fclga1155 3Mb 2 Cores/2 Threads...</h5>
+                        <p class="card-text">S/. 2.400</p>
+                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
+                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card card_producto col-2">
+                    <button class="btn btn_corazon">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/31zqwyjLulL._SX500_SY500_CR,0,0,500,500_.jpg"
+                        class="img-fluid" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Intel Pentium G2020 2.9Ghz Fclga1155 3Mb 2 Cores/2 Threads...</h5>
+                        <p class="card-text">S/. 2.400</p>
+                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
+                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card card_producto col-2">
+                    <button class="btn btn_corazon">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/31zqwyjLulL._SX500_SY500_CR,0,0,500,500_.jpg"
+                        class="img-fluid" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Intel Pentium G2020 2.9Ghz Fclga1155 3Mb 2 Cores/2 Threads...</h5>
+                        <p class="card-text">S/. 2.400</p>
+                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
+                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card card_producto col-2">
+                    <button class="btn btn_corazon">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/31zqwyjLulL._SX500_SY500_CR,0,0,500,500_.jpg"
+                        class="img-fluid" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Intel Pentium G2020 2.9Ghz Fclga1155 3Mb 2 Cores/2 Threads...</h5>
+                        <p class="card-text">S/. 2.400</p>
+                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
+                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
+                    </div>
+                </div>
+                
             </div>
 
         </div>
-    </div>
-    <!-- Carousel Categoría 1 -->
-    <div class="main_categ">
-        <h1 class="main_titulos"> Case </h1>
-        <!-- Carousel Categoría 2 -->
-        <div class="flick_categ_produc main-carousel" data-flickity='{"autoPlay": 3500,
-    "pauseAutoPlayOnHover": true, "wrapAround": true}'>
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
-                    <button class="btn btn_corazon">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <img src="https://m.media-amazon.com/images/I/510cWHKXlrL._AC_UY218_.jpg" class="img-fluid" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">NZXT H510 - CA-H510B-W1 - Compact ATX Mid-Tower PC Gaming Case</h5>
-                        <p class="card-text">S/. 259</p>
-                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
-                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
-                    <button class="btn btn_corazon">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <img src="https://m.media-amazon.com/images/I/510cWHKXlrL._AC_UY218_.jpg" class="img-fluid" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">NZXT H510 - CA-H510B-W1 - Compact ATX Mid-Tower PC Gaming Case</h5>
-                        <p class="card-text">S/. 259</p>
-                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
-                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
-                    <button class="btn btn_corazon">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <img src="https://m.media-amazon.com/images/I/510cWHKXlrL._AC_UY218_.jpg" class="img-fluid" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">NZXT H510 - CA-H510B-W1 - Compact ATX Mid-Tower PC Gaming Case</h5>
-                        <p class="card-text">S/. 259</p>
-                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
-                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
-                    <button class="btn btn_corazon">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <img src="https://m.media-amazon.com/images/I/510cWHKXlrL._AC_UY218_.jpg" class="img-fluid" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">NZXT H510 - CA-H510B-W1 - Compact ATX Mid-Tower PC Gaming Case</h5>
-                        <p class="card-text">S/. 259</p>
-                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
-                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
-                    <button class="btn btn_corazon">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <img src="https://m.media-amazon.com/images/I/510cWHKXlrL._AC_UY218_.jpg" class="img-fluid" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">NZXT H510 - CA-H510B-W1 - Compact ATX Mid-Tower PC Gaming Case</h5>
-                        <p class="card-text">S/. 259</p>
-                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
-                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
-                    <button class="btn btn_corazon">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <img src="https://m.media-amazon.com/images/I/510cWHKXlrL._AC_UY218_.jpg" class="img-fluid" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">NZXT H510 - CA-H510B-W1 - Compact ATX Mid-Tower PC Gaming Case</h5>
-                        <p class="card-text">S/. 259</p>
-                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
-                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
-                    <button class="btn btn_corazon">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <img src="https://m.media-amazon.com/images/I/510cWHKXlrL._AC_UY218_.jpg" class="img-fluid" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">NZXT H510 - CA-H510B-W1 - Compact ATX Mid-Tower PC Gaming Case</h5>
-                        <p class="card-text">S/. 259</p>
-                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
-                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
-                    <button class="btn btn_corazon">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <img src="https://m.media-amazon.com/images/I/510cWHKXlrL._AC_UY218_.jpg" class="img-fluid" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">NZXT H510 - CA-H510B-W1 - Compact ATX Mid-Tower PC Gaming Case</h5>
-                        <p class="card-text">S/. 259</p>
-                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
-                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-cell">
-
-                <div class="card card_producto">
-                    <button class="btn btn_corazon">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <img src="https://m.media-amazon.com/images/I/510cWHKXlrL._AC_UY218_.jpg" class="img-fluid" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">NZXT H510 - CA-H510B-W1 - Compact ATX Mid-Tower PC Gaming Case</h5>
-                        <p class="card-text">S/. 259</p>
-                        <button type="btn" class="btn btn-light btn_card_comprar">Comprar</button>
-                        <button type="btn" class="btn btn-light btn_card_carrito">Añadir al carrito</button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
 
     </main>
-
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -555,6 +353,7 @@
 </footer>
 
 <a href="/index.html">Atrás</a>
+
 
 
 </html>

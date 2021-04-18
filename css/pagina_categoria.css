@@ -2,36 +2,23 @@
 	margin: 0;
 	box-sizing: border-box;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: 'Manrope', sans-serif;
 }
-
-
 main{
         
-        max-width: 1440px;
-        margin: 0 auto;
-        position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
 
 }
 
-.flick_categ .carousel-cell {
-    width: 28%;
-    height: 250px;
-    margin-right: 10px;
-    border-radius: 5px;
-    counter-increment: carousel-cell;
-  }
-
-  .card_categorias{
-      border: none;
-  }
 .main_titulos{
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .card_producto{
-    width: 200px;
+    min-width: 200px;
     height: 450px;
     justify-content: center;
     text-align: center;
@@ -81,50 +68,13 @@ main{
     font-size:25px;
 }
 
-.main_categ{
-    margin-bottom: 30px;
-}
-
-.footer_home{
+.card_group{
     display: flex;
-    background-color: #0e4fb1;
     align-items: center;
-    justify-content: space-between;
-}
-
-.footer_logos{
-    flex: 1;
-    max-width: 200px;
-    height: 80px;
-    display: flex;
     justify-content: center;
+}
+
+.row{
     align-items: center;
+    justify-content: center;
 }
-
-.footer_iconos{
-    flex: 1;
-    padding-right: 200px;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.btn_footer{
-    font-size: 50px;
-    color: #e0e0e0;
-
-}
-
-.footer_logo_imagen{
-    height: 80px;
-    width: 80px;
-    color:#e0e0e0;
-}
-
-.producto_descr{
-    display: flex;
-background-color: black;
-}
-
-
